@@ -1,27 +1,22 @@
+# Day 04: BMI Calculator with History Logging
 
-# Day 3 Assignment: Modular BMI Calculator
+This project is an enhanced version of the BMI Calculator
 
-This project demonstrates a modular approach to software development by separating business logic from the user interface.
+## Features
+- **BMI Calculation:** Core logic to calculate Body Mass Index based on weight and height.
+- **History Logging:** Automatically saves every calculation result, including a timestamp, to a local file named `history.txt`.
+- **Multiple Interfaces:** Supports both Command Line Interface (CLI) and Graphical User Interface (GUI).
+- **Unit Testing:** Includes automated tests to ensure the calculation logic is accurate.
 
 ## Project Structure
-* **bmi_logic.py**: Contains the core calculation logic (Business Logic).
-* **main_input.py**: Standard terminal interface using `input()`.
-* **main_argv.py**: Command-line interface using `sys.argv`.
-* **main_gui.py**: Graphical User Interface using `tkinter`.
-* **test_bmi.py**: Automated tests to verify the calculation accuracy.
+- `bmi_logic.py`: Contains the core calculation and file-saving functions.
+- `main_input.py`: CLI-based interface for user input.
+- `main_gui.py`: Tkinter-based graphical interface.
+- `test_bmi.py`: Test suite for the BMI logic.
+- `history.txt`: Local log file (excluded from Git for privacy).
 
 ## How to Run
-1. **Standard Input:** `python main_input.py`
-2. **Command Line:** `python main_argv.py <weight> <height>` (e.g., `python main_argv.py 70 1.75`)
-3. **GUI:** `python main_gui.py`
-4. **Tests:** `python test_bmi.py`
-
-## Features Implemented
-* Separation of concerns: Logic is separated from UI for reusability.
-* Automated testing with `assert`.
-* Use of `.gitignore` to exclude `__pycache__`.
-* Handling user input via multiple methods (Terminal, CLI arguments, and GUI).
-
-## AI Disclosure
-* **AI Tool:** Gemini
-* **Usage:** I used GiminiAI for his help with writing and error solving. Assisted in structuring the modular files, generating the `tkinter` GUI boilerplate, and explaining the `sys.argv` implementation. .
+To run the CLI version:
+```bash
+python day04/main_input.py
+-Gemini -for technical guidance, troubleshooting terminal errors, and assistance in structuring the code.
