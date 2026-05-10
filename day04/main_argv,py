@@ -1,0 +1,8 @@
+import sys
+from bmi_logic import calculate_bmi
+
+if __name__ == "__main__":
+    # sys.argv[1] הוא המשקל, sys.argv[2] הוא הגובה
+    weight = float(sys.argv[1])
+    height = float(sys.argv[2])
+    print(f"Result: {calculate_bmi(weight, height)}")
