@@ -3,7 +3,7 @@
 This project connects to the official **RCSB Protein Data Bank (PDB) REST API** to programmatically fetch structural metadata for biological macromolecules.
 
 ## About the Database & Targeted Protein
-The RCSB PDB is a global repository containing 3D structural data for macromolecules determined by experimental methods such as X-ray Crystallography, Cryo-EM, and **Nuclear Magnetic Resonance (NMR)**. 
+The RCSB PDB is a global repository containing 3D structural data for macromolecules determined by experimental methods such as X-ray Crystallography, Cryo-EM, and **Nuclear Magnetic Resonance**. 
 
 For this assignment, the script targets PDB entry **6Z5N**, which represents the structure of the **DNAJB1-JD** chaperone. What is it? It is a protein from the chaperone family – the cell’s “babysitters” who help other proteins fold correctly and prevent them from collapsing and forming dangerous clumps.
 
