@@ -1,6 +1,6 @@
 # Day 06: Structural Biology API Data Fetcher (RCSB PDB)
 
-This project connects to the official **RCSB Protein Data Bank (PDB) REST API** to programmatically fetch structural metadata for biological macromolecules.
+This project connects to the official **RCSB Protein Data Bank REST API** to programmatically fetch structural metadata for biological macromolecules.
 
 ## About the Database & Targeted Protein
 The RCSB PDB is a global repository containing 3D structural data for macromolecules determined by experimental methods such as X-ray Crystallography, Cryo-EM, and **Nuclear Magnetic Resonance**. 
