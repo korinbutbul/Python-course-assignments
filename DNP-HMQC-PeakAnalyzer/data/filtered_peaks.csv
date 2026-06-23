@@ -1,0 +1,5 @@
+Assignment,1H (ppm),13C (ppm),Intensity,Region
+Ala12,1.2,20.5,500000,Methyl/Aliphatic
+Gly15,3.8,43.2,450000,Other
+Leu23,0.8,22.1,600000,Methyl/Aliphatic
+Val34,0.9,18.9,550000,Methyl/Aliphatic
